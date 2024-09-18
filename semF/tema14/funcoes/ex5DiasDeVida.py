@@ -12,4 +12,4 @@ diasVida = diasDeVida(nome, idade)
 
 # Imprimndo
 print("")
-print(f"\033[33m{nome}\033[m, você já viveu aproximadamente \033[33m{diasVida}\033[m dias.")
+print(nome,"você já viveu aproximadamente", diasVida, "dias.")

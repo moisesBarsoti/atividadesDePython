@@ -9,5 +9,5 @@ while numero not in range(1, 11):
 print("")
 print(f"A tabuada do {numero}: ")
 for i in range(1, 11):
-    print(f"\033[33m{numero}\033[m x {i} = \033[33m{numero * i}\033[m")
+    print(numero, "x", i, "=", numero * i)
     i += 1

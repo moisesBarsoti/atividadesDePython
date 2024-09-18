@@ -1,15 +1,7 @@
-import re
 from datetime import datetime
 
 # Função para converter data
 def converterData(data):
-    # Expressão regular para validar a data
-    expressaoRegular = r'^\d{2}/\d{2}/\d{4}$'
-    
-    # Verifica se a data está no formato correto
-    if not re.match(expressaoRegular, data):
-        return None
-    
     # Converte a data para um objeto dia/mês/ano
     try:
         dataObj = datetime.strptime(data, '%d/%m/%Y')
@@ -45,6 +37,6 @@ resultado = converterData(data)
 
 # Imprimindo
 if resultado:
-    print(f"Data válida: \033[36m{resultado}\033[m")
+    print(f"Data válida: {resultado}")
 else:
-    print(f"Data inválida: \033[31m{resultado}\033[m")
+    print(f"Data inválida: {resultado}")

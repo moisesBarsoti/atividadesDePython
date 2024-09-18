@@ -17,7 +17,7 @@ while numUsuario % 2 == 1:
 
 for i in numeros:
     if i % 2 == 0:
-        print(f"Numero par do sistema: {i}")
+        print("Numero par do sistema:", i)
         Inicializador += i
 
 
@@ -26,6 +26,6 @@ soma = numUsuario + Inicializador
 
 # Iprimindo resultado
 print("")
-print(f"Numero do sistema: {Inicializador}")
-print(f"Numero do usuario: {numUsuario}")
-print(f"{Inicializador} + {numUsuario} = {soma}")
+print("Numero do sistema:", Inicializador)
+print("Numero do usuario:", numUsuario)
+print(Inicializador," + ", numUsuario, " = ", soma)
