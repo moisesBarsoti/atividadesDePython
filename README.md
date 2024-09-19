@@ -3,11 +3,6 @@
 
 <p>Nessa atividade foi utilizada funções, modulos e validações</p>
 
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>
-
 <br>
 
 ## 🚀 Tecnologias
