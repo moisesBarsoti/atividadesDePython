@@ -37,6 +37,6 @@ resultado = converterData(data)
 
 # Imprimindo
 if resultado:
-    print(f"Data válida: {resultado}")
+    print("Data válida: ",resultado)
 else:
-    print(f"Data inválida: {resultado}")
+    print("Data inválida: ", resultado)
